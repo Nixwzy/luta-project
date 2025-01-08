@@ -1,2 +1,2 @@
 # luta project
- Basic fighting game using OOP.
+ Basic fighting game based on OOP concepts using HTML, CSS and JavaScript.
