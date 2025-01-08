@@ -67,7 +67,8 @@ class Stage {
 
   start() {
     this.update();
-    
+    this.player1info.querySelector('.attackButton').addEventListener('click', () => this.attack(player1, player2))
+    this.player2info.querySelector('.attackButton').addEventListener('click', () => this.attack(player2, player1))
 
   }
 
@@ -83,3 +84,7 @@ class Stage {
     this.player2info.querySelector('.bar').style.width= `${p2Pct}%`
   }
 }
+
+// attack(attacker, target) {
+
+// }
